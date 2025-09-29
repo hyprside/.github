@@ -126,7 +126,7 @@ Hyprside is based on the concept of an **immutable ROM**, inspired by Android an
 * Only `/home` and specific directories are mutable.
 * Atomic updates: download new image → replace → reboot.
 * No risk of breaking the system as with `apt upgrade` or `pacman -Syu`.
-
+* You can treat your computer like an appliance
 ### Software Management
 
 * Apps via **Flatpak**, with looser restrictions.
