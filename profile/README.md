@@ -91,8 +91,7 @@ The focus is on delivering **stability, performance, and a cohesive, elegant use
 * **Security**: switching is controlled by HSM, avoiding TTY bypasses.
 
 ```
-tibs ┅┅┅┅┅┅┅┅┅┅┅┅┅→ session manager ┅┅┅→ DRM (screen)
-                              ↑
+tibs ┅┅┅┅┅┅┅┅┅┅┅┅┅> session manager ┅┅┅> DRM (screen)
 user1 hyprland ┅┅┅┅┅┅┅┅┅┫
 user2 hyprland ┅┅┅┅┅┅┅┅┅┛
 ```
