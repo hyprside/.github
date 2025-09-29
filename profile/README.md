@@ -1,5 +1,7 @@
 # Hyprside
 
+Windows 10 is coming to an end, Windows 11 is an absolute mess, Linux distributions are not a replacement for most users, and macOS is too expensive. Mobile operating systems like iOS and Android have evolved tremendously in usability, stability, ease of management, integrations, and ecosystems — but desktop operating systems have stagnated.
+
 **Hyprside** is a Linux-based operating system designed to be the true successor to traditional distributions and even Windows itself.
 The focus is on delivering **stability, performance, and a cohesive, elegant user experience**, free from the fragmentation and fragility of existing systems.
 
