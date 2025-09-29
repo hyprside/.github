@@ -5,7 +5,7 @@ The focus is on delivering **stability, performance, and a cohesive, elegant use
 
 > The name *Hyprside* comes from the idea of being *“the other side.”*
 
-**WARNING: The project is still under development, this readme doesn't describe thr current state of the projrct, but rather what I want to create**
+**WARNING: The project is still under development, this readme doesn't describe the current state of the project, but rather what I want to create**
 
 
 ---
@@ -80,7 +80,7 @@ The focus is on delivering **stability, performance, and a cohesive, elegant use
 
 ## 🔀 HyprSessionManager (HSM)
 
-* Compositors (HyprDE, tibs, lockscreen, etc.) render to **off-screen framebuffers** and send them to the HSM.
+* Compositors (Hyprland, tibs) render to **off-screen framebuffers** and send them to the HSM.
 * The HSM decides which buffer appears on which display, applies transformations, and performs final composition to DRM/KMS.
 * **Two rendering modes**:
 
@@ -91,10 +91,10 @@ The focus is on delivering **stability, performance, and a cohesive, elegant use
 * **Security**: switching is controlled by HSM, avoiding TTY bypasses.
 
 ```
-tibs ┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅→ session manager ┅┅┅→ DRM (screen)
-                                               ↑
-user1 hyprland ┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┫
-user2 hyprland ┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┛
+tibs ┅┅┅┅┅┅┅┅┅┅┅┅┅→ session manager ┅┅┅→ DRM (screen)
+                              ↑
+user1 hyprland ┅┅┅┅┅┅┅┅┅┫
+user2 hyprland ┅┅┅┅┅┅┅┅┅┛
 ```
 
 ---
