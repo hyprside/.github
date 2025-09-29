@@ -88,14 +88,15 @@ The focus is on delivering **stability, performance, and a cohesive, elegant use
 
   * *Pass-through (zero-copy)*: ideal for gaming (direct scanout).
   * *Hybrid composition*: for animations, overlays, and multiple sessions.
-* Controls sessions and seats via **seatd**.
-* Handles privileged shortcuts (Win+L, Ctrl+Alt+Del).
-* **Security**: switching is controlled by HSM, avoiding TTY bypasses.
+* Controls who can receive keyboard and mouse inputs
+* Handles privileged shortcuts (Win+L, Ctrl+Alt+Del)
+* Handles animations and transitions between screens
 
 ```
-tibs ┅┅┅┅┅┅┅┅┅┅┅┅┅> session manager ┅┅┅> DRM (screen)
-user1 hyprland ┅┅┅┅┅┅┅┅┅┫
-user2 hyprland ┅┅┅┅┅┅┅┅┅┛
+
+tibs           (🔒) ┅┅┅> session manager ━> DRM (screen)
+user1 hyprland (✅) ━━━━━━━━━┫
+user2 hyprland (🔒) ┅┅┅┅┅┅┅┅┅┛
 ```
 
 ---
