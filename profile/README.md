@@ -122,7 +122,7 @@ user2 hyprland (🔒) ┅┅┅┅┅┅┅┅┅┛
 
 Hyprside is based on the concept of an **immutable ROM**, inspired by Android and ChromeOS:
 
-* The system is distributed as a **read-only image (**``**)**.
+* The system is distributed as a **read-only image (**`.img`**)**.
 * Only `/home` and specific directories are mutable.
 * Atomic updates: download new image → replace → reboot.
 * No risk of breaking the system as with `apt upgrade` or `pacman -Syu`.
