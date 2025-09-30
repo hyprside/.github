@@ -17,6 +17,7 @@ O foco é oferecer **estabilidade, desempenho e uma experiência de utilizador c
 * Experiência consistente e uniforme em todo o sistema.
 * Design moderno, animações suaves e transições bem integradas.
 * Interface intuitiva e livre de bugs.
+* Estavel: não queremos funcionalidades que só funcionam às vezes, se funciona uma vez, funciona sempre.
 * **Consistência visual e comportamental** entre todas as aplicações, independentemente do toolkit.
 * **GUI-first**: todas as operações essenciais podem ser feitas sem terminal (o terminal existe apenas como ferramenta de desenvolvimento e vem desativado por defeito).
 * Integração transparente com aplicações Windows e Android.
