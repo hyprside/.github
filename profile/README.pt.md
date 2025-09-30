@@ -1,5 +1,7 @@
 # Hyprside
 
+Windows 10 está quase a acabar, windows 11 é um desastre, distribuições linux não são uma opção pfa maioria das pessoas e MacOS é muito caro. Sistemas operativos para telemóveis como Android e iOS evoluiram muito em usabilidade, integração e estabilidade, mas sistemas operativos para computadores estagnaram.
+
 **Hyprside** é um sistema operativo baseado em Linux, pensado para ser o verdadeiro sucessor das distribuições tradicionais e até do Windows.
 O foco é oferecer **estabilidade, desempenho e uma experiência de utilizador coesa e elegante**, sem a fragmentação e fragilidade comuns nos sistemas atuais.
 
