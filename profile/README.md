@@ -42,7 +42,7 @@ The focus is on delivering **stability, performance, and a cohesive, elegant use
 
 * Based on **Hyprland**, fully integrated with HyprUI and universal themes.
 * UX/UI on Apple’s level, with smooth transitions and polished usability.
-* **Windows Subsystem**: Wine/Proton integration, rollback via Btrfs snapshots, extended support for problematic apps (Adobe Suite, MS Office).
+* **Windows Subsystem**: Wine/Proton integration, extended support for problematic apps (Adobe Suite, MS Office).
 * **Android Subsystem**: seamless WayDroid integration.
 * **Advanced notifications**: Android-style, interactive and persistent.
 * **Intelligent clipboard**: history, editing, and sharing.
